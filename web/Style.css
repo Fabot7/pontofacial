@@ -1,0 +1,13 @@
+body{
+    background-color: lightblue;
+    border-style: groove;
+    border-color: black;
+}
+#avisos{
+    margin: auto;
+    height: 100px;
+    width: 200px;
+    border-color: black;
+    border-style: groove;
+    padding: 10px;
+}

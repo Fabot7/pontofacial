@@ -8,6 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
+
+    <link rel="stylesheet" href="Style.css">
+
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
@@ -36,6 +39,11 @@
           <tr><td>Senha:</td><td><input type="password" name="senhausuario"/></td></tr>
           <tr><td colspan="2" align="center"><input  type="submit" value="Entrar" onclick="alerta()"/></td></tr>
         </table>
+
+        <div id="avisos">
+          <p align="center"> AVISOS </p>
+        </div>
+
       </form>
   </body>
 </html>
