@@ -18,8 +18,10 @@ public class Servlet extends HttpServlet {
         processRequest(request, response);
     }
 
+
     protected void processRequest(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         validar(req);
+        //Direciona para uma pagina ("Principal").
         RequestDispatcher rd = req.getRequestDispatcher("principal.jsp");
         rd.forward(req, resp);
     }
