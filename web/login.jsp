@@ -42,16 +42,7 @@
           <tr><td colspan="2" align="center"><input  type="submit" value="Entrar" onclick="alerta()"/></td></tr>
         </table>
 
-        <div id="avisos">
-            <% ArrayList list = new ArrayList();
-                for (int i = 0; i < 5; i++) {
-                    list.add("vitor");
-                }
-                    out.print(list);
 
-            %>
-          <p align="center"> AVISOS </p>
-        </div>
 
       </form>
     </body>

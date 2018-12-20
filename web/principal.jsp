@@ -22,7 +22,7 @@
 
     </head>
 
-    <body id="principal">
+    <body id="principal" >
     <%-- scriptlet que serve para realizar a autenticação do usuario na hora do login --%>
         <% String nomeUsuario = (String) session.getAttribute("autenticador");
             if (nomeUsuario == null) {
@@ -36,6 +36,40 @@
                 <h1 align="center">Usuário Logado Com Sucesso</h1>
                 <p align="center">Sistema de ponto para escola fazendaria</p>
                 <h3 align="center">LOGADO</h3>
+
+                <%-- formulário para pesquisa por mes e setor --%>
+                <h3 align="center">PESQUISA POR MÊS E SETOR </h3>
+                <form align="center">
+                    <fieldset>
+                        <%-- select de mês --%>
+                        <select name="mes">
+                            <option value="1">Janeiro
+                            <option value="2">Fevereiro
+                            <option value="3">Março
+                            <option value="4">Abril
+                            <option value="5">Maio
+                            <option value="6">Junho
+                            <option value="7">Julho
+                            <option value="8">Agosto
+                            <option value="9">Setembro
+                            <option value="10">Outubro
+                            <option value="11">Novembro
+                            <option value="12">Dezembro
+                        </select>
+                            <%-- select de mês --%>
+                        <select name="setor">
+                            <option value="13">RH
+                            <option value="14">ADM
+                            <option value="15">EAD
+                            <option value="16">RECEPÇÃO
+                            <option value="17">SEGURANÇA
+                            <option value="18">ALIMENTAÇÃO
+                        </select>
+                        <button>Buscar</button>
+                    </fieldset>
+                </form>
+
+
             </article>
         </section>
     </body>
