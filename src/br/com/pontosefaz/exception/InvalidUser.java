@@ -2,8 +2,8 @@ package br.com.pontosefaz.exception;
 
 import javax.servlet.ServletException;
 
-public class invalidUser extends ServletException {
-    public invalidUser(String message) {
+public class InvalidUser extends ServletException {
+    public InvalidUser(String message) {
 
         super(message);
     }

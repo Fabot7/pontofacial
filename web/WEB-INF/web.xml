@@ -5,7 +5,7 @@
          version="4.0">
     <error-page>
         <exception-type>
-            br.com.pontosefaz.exception.invalidUser
+            br.com.pontosefaz.exception.InvalidUser
         </exception-type>
         <location>
             /errodeusuario.jsp

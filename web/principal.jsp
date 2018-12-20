@@ -1,4 +1,5 @@
-<%@ page import="java.rmi.ServerException" %><%--
+<%@ page import="java.rmi.ServerException" %>
+<%--
   Created by IntelliJ IDEA.
   User: vsnorberto
   Date: 17/12/2018
@@ -8,8 +9,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
+        <%-- fazendo referencia ao css --%>
 
         <link rel="stylesheet" href="Style.css">
+        <%-- script para exibição em internet explorer --%>
 
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -19,7 +22,8 @@
 
     </head>
 
-    <body>
+    <body id="principal">
+    <%-- scriptlet que serve para realizar a autenticação do usuario na hora do login --%>
         <% String nomeUsuario = (String) session.getAttribute("autenticador");
             if (nomeUsuario == null) {
                 throw new ServerException("Nenhum usuario logado");

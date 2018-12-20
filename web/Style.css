@@ -11,3 +11,8 @@ body{
     border-style: groove;
     padding: 10px;
 }
+#principal{
+    background-color: silver;
+    border-style: groove;
+    border-color: black;
+}

@@ -1,8 +1,6 @@
 package br.com.pontosefaz.servlet;
 
-import br.com.pontosefaz.exception.invalidUser;
-import com.sun.xml.internal.ws.developer.MemberSubmissionAddressing;
-
+import br.com.pontosefaz.exception.InvalidUser;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -31,8 +29,9 @@ public class Servlet extends HttpServlet {
         String senhaUsuario = req.getParameter("senhausuario");
 
         if(!nomeUsuario.equals("admin") || !senhaUsuario.equals("admin")){
-            throw new invalidUser("Login ou Senha Invalidos");
+            throw new InvalidUser("Login ou Senha Invalidos");
         }
+
         HttpSession session = req.getSession();
         session.setAttribute("autenticador",nomeUsuario);
 
