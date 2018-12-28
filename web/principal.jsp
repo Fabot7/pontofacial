@@ -1,4 +1,5 @@
-<%@ page import="java.rmi.ServerException" %>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%--
   Created by IntelliJ IDEA.
   User: vsnorberto
@@ -6,10 +7,12 @@
   Time: 10:22
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
-        <%-- fazendo referencia ao css --%>
+        <%@ page import="java.rmi.ServerException" %>
+        <%--link de referencia ao boostrap--%>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <%-- fazendo referencia ao css --%>
 
         <link rel="stylesheet" href="Style.css">
         <%-- script para exibição em internet explorer --%>
@@ -23,6 +26,7 @@
     </head>
 
     <body id="principal" >
+
     <%-- scriptlet que serve para realizar a autenticação do usuario na hora do login --%>
         <% String nomeUsuario = (String) session.getAttribute("autenticador");
             if (nomeUsuario == null) {
@@ -30,6 +34,8 @@
             }
         %>
         Seja Bem Vindo: <%=nomeUsuario%> | <a href="logout.jsp">Exit</a>
+
+
 
         <section>
             <article>

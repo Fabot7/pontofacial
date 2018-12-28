@@ -32,5 +32,6 @@
         <jarDirectory url="file://$USER_HOME$/Documents/DiveJDBC/OJDBC-Full" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
