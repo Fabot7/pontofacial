@@ -11,6 +11,16 @@
         </webroots>
       </configuration>
     </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/ambiteste/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/ambiteste/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -25,13 +35,14 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Documents/DiveJDBC/OJDBC-Full" />
+          <root url="file://$MODULE_DIR$/../DiveJDBC/OJDBC-Full" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$USER_HOME$/Documents/DiveJDBC/OJDBC-Full" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../DiveJDBC/OJDBC-Full" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6 (3)" level="project" />
   </component>
 </module>
