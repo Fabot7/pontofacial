@@ -52,7 +52,7 @@
                 <a href="#messages" class="btn"><i class="fas fa-file-alt"></i>Relatórios</a>
 
                     <div class="smenu">
-                    <a href="relatorios/relatorio.jsp">Relatório Completo</a>
+                        <a href="relatorios/relatorio.jsp">Relatório Completo</a>
                     <a href="#">Relatório Resumido</a>
                     <a href="#">Relatório Personalizado</a>
                 </div>
