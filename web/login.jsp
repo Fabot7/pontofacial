@@ -36,9 +36,9 @@
     </script>
 
 </head>
-    <body class="text-center">
+    <body class="text-center" >
 
-    <form class="form-signin" action="login" method="post" name="formlogin">
+    <form class="form-signin" action="login" method="post" name="formlogin" id="teste">
         <img class="mb-4" src="C:\Users\vsnorberto\Desktop\pontofacial\recursos\Logo.png" alt="" width="300" height="300">
         <h1 class="h3 mb-3 font-weight-normal">Sistema de Ponto - Sefaz</h1>
 
