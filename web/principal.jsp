@@ -41,7 +41,7 @@
     <div class="middle">
         <div class="menu">
             <li class="item" id='profile'>
-                <a href="#profile" class="btn"><i class="far fa-user"></i>Profile</a>
+                <a href="#profile" class="btn"><i class="far fa-user"></i>Perfil</a>
                 <div class="smenu">
                     <a href="#">Trocar Senha</a>
                     <a href="#">Editar Perfil</a>
