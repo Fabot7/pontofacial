@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page info="Pagina criada para Sefaz" %>
 <html>
-  <head>
+  <img>
       <%--link de referencia ao boostrap--%>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <%-- fazendo referencia ao css --%>
@@ -18,7 +18,6 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
-
     <title>SistemadePonto-Sefaz</title>
     <%-- um javascript que mostra um alerta quando os campos estão vazios --%>
     <script type="text/javascript">
@@ -40,7 +39,7 @@
 
     <form class="form-signin" action="login" method="post" name="formlogin" id="teste">
 
-        <img class="mb-4" src="https://www.grancursosonline.com.br/upload/projeto/sefaz-al-secretaria-do-estado-da-fazenda-de-alagoas.png" alt="" width="300" height="300"/>
+        <img class="mb-4" src="recursos/img/Logo.png" alt="" width="300" height="300"/>
 
 
         <h1 class="h3 mb-3 font-weight-normal">Sistema de Ponto - Sefaz</h1>

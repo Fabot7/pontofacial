@@ -1,6 +1,8 @@
 body{
     border-style: groove;
     border-color: black;
+    background: #2980b9;
+
 }
 #avisos{
     margin: auto;

@@ -35,7 +35,7 @@
                 throw new ServerException("Nenhum usuario logado");
             }
         %>
-        Seja Bem Vindo: <%=nomeUsuario%>
+    <h4> Seja Bem Vindo: <%=nomeUsuario%> </h4>
 
 
     <div class="middle">
@@ -52,9 +52,9 @@
                 <a href="#messages" class="btn"><i class="fas fa-file-alt"></i>Relatórios</a>
 
                     <div class="smenu">
-                        <a href="relatorios/relatorio.jsp">Relatório Completo</a>
-                    <a href="#">Relatório Resumido</a>
-                    <a href="#">Relatório Personalizado</a>
+                        <a href="recursos/Relatorios/relatorioComp.jsp">Relatório Completo</a>
+                    <a href="recursos/Relatorios/relatorioResumido.jsp">Relatório Resumido</a>
+                    <a href="recursos/Relatorios/relatorioPersonalizado.jsp">Relatório Personalizado</a>
                 </div>
             </li>
 
