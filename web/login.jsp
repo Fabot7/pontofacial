@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page info="Pagina criada para Sefaz" %>
 <html>
-  <img>
+
       <%--link de referencia ao boostrap--%>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <%-- fazendo referencia ao css --%>
@@ -35,23 +35,49 @@
     </script>
 
 </head>
-    <body class="text-center" >
+
+  <img class="mb-4" src="recursos/img/Logo.png" alt="" width="300" height="230"/>
+
+  <body class="text-center" >
 
     <form class="form-signin" action="login" method="post" name="formlogin" id="teste">
 
-        <img class="mb-4" src="recursos/img/Logo.png" alt="" width="300" height="300"/>
+        <body class="bg-dark">
 
+        <div class="container">
+            <div class="card card-login mx-auto mt-5">
+                <div class="card-header">Login</div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <div class="form-label-group">
+                                <input type="text" name="loginusuario" id="loginusuario" class="form-control" placeholder="Usuario" required autofocus>
 
-        <h1 class="h3 mb-3 font-weight-normal">Sistema de Ponto - Sefaz</h1>
-
-        <label for="loginusuario" class="sr-only"></label>
-        <input type="text" name="loginusuario" id="loginusuario" class="form-control" placeholder="Usuario" required autofocus>
-
-        <label for="senhausuario" class="sr-only"></label>
-        <input type="password" name="senhausuario" id="senhausuario" class="form-control" placeholder="senha" required>
-
-        <button class="btn btn-lg btn-primary btn-block" onclick="alerta()" type="submit">Entrar</button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2018-2019</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-label-group">
+                                <input type="password" name="senhausuario" id="senhausuario" class="form-control" placeholder="senha" required>
+                                <label for="senhausuario">Password</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="remember-me">
+                                    Remember Password
+                                </label>
+                            </div>
+                        </div>
+                        <button class="btn btn-lg btn-primary btn-block" onclick="alerta()" type="submit">Entrar</button>
+                    </form>
+                    <div class="text-center">
+                        <a class="d-block small mt-3" href="register.html">Registrar-se</a>
+                        <a class="d-block small" href="recursos/resetsenha.jsp">Esqueceu a Senha ?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </form>
 
     <%--
