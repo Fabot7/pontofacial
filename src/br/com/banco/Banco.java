@@ -27,6 +27,7 @@ public class Banco {
         //Pelo fato de gerar uma lista de valores, é necessário percorrer os dados através do laço while
         ResultSet rs = ps.executeQuery();
         //Faz a verificação de enquanto conter registros, percorre e resgata os valores
+
         while(rs.next()){
             //Recupera o valor do campo referente ao nome do campo
             int idPessoa = rs.getInt("ID_PESSOA");

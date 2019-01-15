@@ -72,8 +72,8 @@
                         <button class="btn btn-lg btn-primary btn-block" onclick="alerta()" type="submit">Entrar</button>
                     </form>
                     <div class="text-center">
-                        <a class="d-block small mt-3" href="register.html">Registrar-se</a>
-                        <a class="d-block small" href="recursos/resetsenha.jsp">Esqueceu a Senha ?</a>
+                        <a class="d-block small mt-3" href="#">Registrar-se</a>
+                        <a class="d-block small" href="#">Esqueceu a Senha ?</a>
                     </div>
                 </div>
             </div>

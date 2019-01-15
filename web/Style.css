@@ -1,6 +1,7 @@
 body{
     border-style: groove;
-    border-color: black;
+    background-image: url("recursos/img/captura.png");
+    background-size: 1500px;
 
 
 }
@@ -15,6 +16,7 @@ body{
 #principal{
     border-style: groove;
     border-color: black;
+    border-radius: 15px;
 }
 #teste {
     margin: auto;
