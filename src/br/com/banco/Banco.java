@@ -14,7 +14,7 @@ public class Banco {
 
     public static Connection iniciandoConexao() throws SQLException {
         Connection conexao = DriverManager.getConnection(
-                "jdbc:oracle:thin:@10.10.214.71:1521:xe","system","123456");
+                "jdbc:oracle:thin:@10.10.253.2:1521:xe","system","oracle");
         System.out.println("Conectado!");
         return conexao;
     }
